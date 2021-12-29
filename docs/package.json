@@ -1,0 +1,43 @@
+{
+  "name": "mobx.dart-docs",
+  "description": "Documentation Website for MobX.dart",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobxjs/mobx.dart.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "docz dev --typescript",
+    "build": "docz build --typescript"
+  },
+  "dependencies": {
+    "dart-syntax-highlighting-only": "git+https://github.com/oscarcs/dart-syntax-highlighting-only.git",
+    "docz": "^2.3.1",
+    "gatsby-remark-vscode": "^2.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet-async": "^1.0.6",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "gatsby-transformer-remark": "^2.8.8",
+    "typescript": "^3.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/mobxjs/mobx.dart/issues"
+  },
+  "homepage": "https://github.com/mobxjs/mobx.dart#readme",
+  "version": "1.0.0",
+  "main": "doczrc.js",
+  "keywords": [
+    "mobx",
+    "flutter",
+    "dart",
+    "reactive",
+    "state",
+    "docs"
+  ],
+  "author": "Pavan Podila <pavan@pixelingene.com>"
+}

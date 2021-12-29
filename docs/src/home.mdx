@@ -1,0 +1,69 @@
+---
+route: '/'
+---
+
+import book from './images/book.png';
+import flutterFavorite from './images/flutter-favorite.png';
+
+# MobX.dart
+
+[MobX](https://github.com/mobxjs/mobx) for the Dart language.
+
+> Hassle free state-management for your Dart and Flutter apps
+
+[![pub package for mobx](https://img.shields.io/pub/v/mobx.svg?label=mobx&color=blue)](https://pub.dartlang.org/packages/mobx)
+[![pub package for flutter_mobx](https://img.shields.io/pub/v/flutter_mobx.svg?label=flutter_mobx&color=blue)](https://pub.dartlang.org/packages/flutter_mobx)
+[![pub package for mobx_codegen](https://img.shields.io/pub/v/mobx_codegen.svg?label=mobx_codegen&color=blue)](https://pub.dartlang.org/packages/mobx_codegen)
+
+[![Build Status](https://github.com/mobxjs/mobx.dart/workflows/Build/badge.svg)](https://github.com/mobxjs/mobx.dart/actions)
+[![Publish](https://github.com/mobxjs/mobx.dart/workflows/Publish/badge.svg)](https://github.com/mobxjs/mobx.dart/actions)
+[![Coverage Status](https://img.shields.io/codecov/c/github/mobxjs/mobx.dart/master.svg)](https://codecov.io/gh/mobxjs/mobx.dart)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/05330d31-0411-4aac-a278-76615bcaff9e/deploy-status)](https://app.netlify.com/sites/mobx/deploys)
+
+[![Join the chat at https://discord.gg/dNHY52k](https://img.shields.io/badge/Chat-on%20Discord-lightgrey?style=flat&logo=discord)](https://discord.gg/dNHY52k)
+
+<a href="https://flutter.dev/docs/development/packages-and-plugins/favorites">
+  <img src={flutterFavorite} height={128} />
+</a>
+
+## Sponsors
+
+We are very thankful to our sponsors to make us part of their _Open Source Software (OSS)_ program. [[Become a sponsor](https://opencollective.com/mobx#sponsor)]
+
+import { SponsorList } from './components/Sponsor';
+
+<SponsorList />
+
+## Introduction
+
+MobX is a state-management library that makes it simple to connect the
+reactive data of your application with the UI (or any observer). This wiring is completely automatic
+and feels very natural. As the application-developer, you focus purely on what reactive-data
+needs to be consumed in the UI (and elsewhere) without worrying about keeping the two
+in sync.
+
+It's not really magic but it does have some smarts around what is being consumed (**observables**)
+and where (**reactions**), and automatically tracks it for you. When the _observables_
+change, all _reactions_ are re-run. What's interesting is that these reactions can be anything from a simple
+console log, a network call to re-rendering the UI.
+
+> MobX has been a very effective library for the JavaScript
+> apps and this port to the Dart language aims to bring the same levels of productivity.
+
+## Tried, tested and said...
+
+import { TestimonialList } from './components/Testimonial';
+
+<TestimonialList />
+
+## Get Started 🚀
+
+Follow along with the [Getting Started Guide](/getting-started) to incorporate MobX within your Flutter project.
+
+## Go deep
+
+For a deeper coverage of MobX, do check out [MobX Quick Start Guide](https://www.packtpub.com/web-development/mobx-quick-start-guide). Although the book uses the JavaScript version of MobX, **almost all** of the concepts are applicable to Dart and Flutter.
+
+<a href="https://www.packtpub.com/web-development/mobx-quick-start-guide">
+  <img src={book} />
+</a>
